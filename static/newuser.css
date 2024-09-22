@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #FFDEE9, #B5FFFC); /* Lighter gradient background */
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #f7f9fc; /* Soft light background for the form container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Softer border color */
+    border-radius: 4px;
+}
+
+.form-group input:focus {
+    border-color: #80bdff; /* Light blue focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Soft focus effect */
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="button"] {
+    background-color: #28a745; /* Green for submit */
+    color: white;
+}
+
+button[type="button"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+button[type="reset"] {
+    background-color: #dc3545; /* Red for reset */
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.menu {
+    background-color: #4a5568; /* Cool-toned gray-blue background for menu */
+    padding: 15px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li a {
+    color: #f0f0f0; /* Light text color for visibility */
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: #38b2ac; /* Soft teal hover effect */
+    border-radius: 5px;
+}

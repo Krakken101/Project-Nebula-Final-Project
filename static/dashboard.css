@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #FFDEE9, #B5FFFC); /* Lighter gradient background */
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34; /* Dark but neutral background for the header */
+    color: #F0F0F0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FBB034; /* Brighter color for the logo */
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+    color: #FFD700; /* Gold color for user info */
+}
+
+.user-info i {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #FFD700; /* Same gold color for consistency */
+}
+
+.menu {
+    background-color: #334E68; /* Muted blue background for the menu */
+    padding: 15px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li a {
+    color: #F0F0F0; /* Light text color for visibility */
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: #55C57A; /* Soft green hover effect */
+    border-radius: 5px;
+}
+
+.dashboard {
+    padding: 20px;
+}
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dashboard-header h2 {
+    font-size: 28px;
+    color: #282c34; /* Matching the header color */
+}
+
+.announcements {
+    background-color: #FFF9C4; /* Light cream background for announcements */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.announcements h3 {
+    font-size: 22px;
+    color: #55C57A; /* Green for highlighted sections */
+    margin-bottom: 10px;
+}
+
+.announcements p {
+    font-size: 16px;
+    color: #555; /* Subtle dark gray for text */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #334E68; /* Same muted blue as the menu */
+    color: #F0F0F0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
