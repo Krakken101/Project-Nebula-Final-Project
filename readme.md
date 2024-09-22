@@ -33,26 +33,20 @@ The architecture integrates various AWS components:
 ## **Getting Started**
 
 ### **1. Cloning the Repository**
-```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+Do the git clone command on this repo.
 
-### **2. Prerequisites**
-Make sure you have:
+2. Prerequisites
+Ensure you have the following:
 
 An active AWS account.
 Docker installed on your local machine.
-AWS CLI set up and configured.
-
-### **3. Deploying the Application**
-- **Step 1**: Push the container to ECR.
-- **Step 2**: Deploy the application using ECS.
-- **Step 3**: Set up API Gateway to connect the frontend with backend Lambda functions.
-
-### **4. Monitoring and Logging**
-- Use **AWS CloudWatch** to monitor the performance of your Lambda functions, ECS containers, and overall system health.
-- 
-
+AWS CLI set up and properly configured.
+3. Deploying the Application
+Step 1: Push your Docker container to Amazon ECR.
+Step 2: Deploy the application using Amazon ECS.
+Step 3: Configure API Gateway to link the frontend with backend Lambda functions.
+4. Monitoring and Logging
+Use AWS CloudWatch to keep track of the performance and logs of your Lambda functions, ECS containers, and other system components. CloudWatch provides insights into system health, allowing for proactive monitoring and troubleshooting.
 
 
 
